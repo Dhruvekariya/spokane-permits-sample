@@ -8,4 +8,4 @@ The CSV is here along with the run log. The screenshot shows the same data as a 
 
 Across these 20 records the portal has 11 different Application Information fields. Not every permit has all of them, so I line the columns up across all records and leave a cell blank where a field does not apply. Licensed Professional comes from each record's own detail page.
 
-The full date range is 2,277 records. Code is available on engagement.
+The full date range is 2,277 records.
