@@ -1,0 +1,8 @@
+# Deny by default. Only the client-facing sample artifacts are tracked here;
+# the scraper source and internal notes are deliberately NOT published.
+*
+!.gitignore
+!README.md
+!sample_output.csv
+!sample_run.log
+!sample_preview.png

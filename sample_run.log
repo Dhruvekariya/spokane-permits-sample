@@ -1,0 +1,35 @@
+Spokane ACA scrape | 01/01/2025 -> 09/25/2025 | limit=20
+
+[1/3] search + pagination (Chrome)
+  column map: {'Date': 1, 'Record Number': 2, 'Record Type': 3, 'Project Title': 4, 'Description': 5, 'Address': 6, 'Action': 7, 'Expiration': 8, 'Status': 9}
+  page 1: +10 rows (total 10) | Showing 1-10 of 100+
+  page 2: +10 rows (total 20) | Showing 11-20 of 100+
+  collected 20 new records
+
+[2/3] detail pages (HTTP, 1.5s delay, serial)
+  [1/20] B2516135RFSW: 7 ASI fields | SAFE ROOFING SERVICES LLC
+  [2/20] B2516126RFSW: 10 ASI fields | REVE EXTERIORS LLC
+  [3/20] B2516124RFSW: 6 ASI fields | REVE EXTERIORS LLC
+  [4/20] B2516114RFSW: 8 ASI fields | VITAL ROOFING LLC
+  [5/20] B2516111RFSW: 7 ASI fields | JOHN MERCER
+  [6/20] B2516110RFSW: 7 ASI fields | JOHN MERCER
+  [7/20] B2516105RFSW: 10 ASI fields | GLACIER PROPERTY SOLUTIONS INC
+  [8/20] B2516102RFSW: 10 ASI fields | AVIDUS ROOFING & EXTERIORS
+  [9/20] B2516097RFSW: 11 ASI fields | BARTLETT HOMES & ROOFING LLC
+  [10/20] B2516089RFSW: 9 ASI fields | CUEVAS ROOFING, LLC
+  [11/20] B2516083RFSW: 10 ASI fields | JOSH'S ROOFING & CONST LLC
+  [12/20] B2516080RFSW: 9 ASI fields | AFFORDABLE NW ROOFING INC
+  [13/20] B2516061RFSW: 11 ASI fields | BARTLETT HOMES & ROOFING LLC
+  [14/20] B2516060RFSW: 6 ASI fields | ANTHONY SMITH CONSTRUCTION
+  [15/20] B2516054RFSW: 9 ASI fields | CASCADE RAIN GUTTERS INC
+  [16/20] B2516045RFSW: 11 ASI fields | BARTLETT HOMES & ROOFING LLC
+  [17/20] B2516041RFSW: 10 ASI fields | SPECIALTY HOME PRODUCTS
+  [18/20] B2516038RFSW: 8 ASI fields | 20/20 EXTERIORS
+  [19/20] B2516037RFSW: 8 ASI fields | SPOKANE HONEY DO BROTHERS
+  [20/20] B2516035RFSW: 10 ASI fields | CAP CONSTRUCTION LLC
+
+[3/3] aligning columns + writing CSV
+
+wrote 20 rows x 22 cols -> sample_output.csv
+  11 distinct Application Information fields
+  0 failures
